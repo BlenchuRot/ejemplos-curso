@@ -12,7 +12,7 @@ namespace cursonet
             { 
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
                 builder.DataSource = "(local)"; 
-                // Aquí pon tu base de datos
+                // Aquí pon tu base de datos DONE
                 builder.InitialCatalog = "Escuela";
                 builder.IntegratedSecurity = true;
          
